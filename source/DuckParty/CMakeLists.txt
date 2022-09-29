@@ -16,7 +16,7 @@ target_include_directories(DuckParty
 )
 
 target_link_libraries(DuckParty
-    PRIVATE CAF::internal CAF::core duck_classes
+    PRIVATE CAF::internal CAF::core duck_classes pthread
 )
 
 
